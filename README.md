@@ -405,7 +405,7 @@ The **Topology** tab shows `localhost` at the centre with each discovered host c
 
 The detailed penetration-testing report covering the modules above is available here:
 
-> 🔗 **Report link:** `ADD-YOUR-REPORT-LINK-HERE`
+> 🔗 **Report link:** https://docs.google.com/document/d/18GdoEwuEUKJvnJ7LOicASxAWlj3UsQT62cbeNw8VCdc/edit?usp=sharing
 
 ---
 
