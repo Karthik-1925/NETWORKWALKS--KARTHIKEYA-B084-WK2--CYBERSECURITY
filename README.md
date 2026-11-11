@@ -439,7 +439,7 @@ This work was carried out **for educational purposes only** as part of the Netwo
 
 ---
 
-<div align="center">
+<div>
 
 **Prepared by KARTHIKEYA SHAILESH KUMAR · Batch B084 · Networkwalks Cybersecurity Internship**
 
