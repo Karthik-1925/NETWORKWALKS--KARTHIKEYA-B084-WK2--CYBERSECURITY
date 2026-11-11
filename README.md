@@ -42,11 +42,10 @@
 8. [W2-PM4 – theHarvester Footprinting](#-w2-pm4--theharvester-footprinting)
 9. [W2-PM5 – Zenmap Network Scanning](#-w2-pm5--zenmap-network-scanning)
 10. [Consolidated Findings](#-consolidated-findings)
-11. [Recommendations](#-recommendations)
-12. [Challenges & Learnings](#-challenges--learnings)
-13. [Final Report](#-final-report-w2-pm-final)
-14. [Repository Structure](#-repository-structure)
-15. [Disclaimer](#-liability-disclaimer)
+11. [Learnings](#-challenges--learnings)
+12. [Final Report](#-final-report-w2-pm-final)
+13. [Repository Structure](#-repository-structure)
+14. [Disclaimer](#-liability-disclaimer)
 
 ---
 
