@@ -76,7 +76,6 @@ All reconnaissance was performed from the Kali Linux lab built in Week 1, and th
 | Module | Type | Topic | Status |
 |---|---|---|---|
 | **W2-PM1** | Elective | Footprinting with multiple Kali tools (6 tools on networkwalks.com) | ✅ Completed |
-| **W2-PM2** | Elective | GHDB-based footprinting | ⏭️ Not attempted (optional) |
 | **W2-PM3** | Elective | Maltego-based footprinting | ✅ Completed |
 | **W2-PM4** | Elective | theHarvester-based footprinting | ✅ Completed |
 | **W2-PM5** | **Essential** | Zenmap-based network scanning | ✅ Completed |
@@ -394,28 +393,7 @@ The **Topology** tab shows `localhost` at the centre with each discovered host c
 
 ---
 
-## 💡 Recommendations
-
-- Hide version information (WordPress meta generator, plugin versions, BIND version) and keep CMS and plugins updated.
-- Enable **DNSSEC** if the DNS provider supports it.
-- Tighten the SPF policy to `-all` and add **DKIM** and **DMARC**.
-- Restrict or monitor access to the WordPress REST API where it is not needed.
-- Keep the WAF rules updated and monitor logs.
-- On the home network, identify all connected devices and use strong Wi-Fi security (WPA2/WPA3).
-
----
-
-## 📚 Challenges & Learnings
-
-| Challenge | Solution / Learning |
-|---|---|
-| theHarvester showed many `Missing API key` errors | These sources need free or paid API keys; keyless sources still work, and keys are configured in `/etc/theHarvester/api-keys.yaml` (the `-q` flag hides the warnings) |
-| theHarvester Baidu search returned nothing | Single search engines can be unreliable; combine several sources and tools |
-| Maltego transforms consume credits | Run only the transforms needed and check the credit message in the output panel |
-| Finding the correct subnet for Zenmap | Used `ipconfig` first to read the IPv4 address and mask, then derived `192.168.0.0/24` |
-| Multiple virtual adapters on Windows | Learned to tell the Wi-Fi adapter apart from VirtualBox host-only and WSL adapters |
-
-**Key learnings**
+## 📚 Learnings
 
 - Footprinting is mostly **passive** and builds a picture of the target before any scanning.
 - Different tools expose different layers: registration (whois), DNS (nslookup, dnsrecon), web stack (whatweb, curl), defences (wafw00f), and relationships (Maltego, theHarvester).
