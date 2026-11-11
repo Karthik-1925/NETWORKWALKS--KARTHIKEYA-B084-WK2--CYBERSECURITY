@@ -1,4 +1,4 @@
-<div align="center">
+<div>
 
 # 🛡️ Footprinting & Network Scanning
 ### Networkwalks Cybersecurity Internship · Week 2 · Project Work
@@ -21,7 +21,6 @@
 | **Program / Batch** | B084 – Networkwalks Cybersecurity Internship |
 | **Task Code** | WK2 – Week 2 Project Work |
 | **Test Date** | 10 November 2026 |
-| **Submission Deadline** | 23:00 H, Friday 13 November 2026 |
 | **Modules Completed** | W2-PM1, W2-PM3, W2-PM4, W2-PM5 (Essential) + Final Report |
 | **Attacker Machine** | Kali Linux 2026.3 (VirtualBox VM) |
 | **Scanning Host** | Windows 11 PC (Zenmap / Nmap 7.993) |
